@@ -9,22 +9,22 @@ let promise1 = new Promise ((resolve, reject)=>{
 		resolve("1");
 	},x * 1000)
 })
-let promise1 = new Promise ((resolve, reject)=>{
+let promise2 = new Promise ((resolve, reject)=>{
 	setTimeout(()=>{
 		resolve("2");
 	},x * 1000)
 })
-let promise1 = new Promise ((resolve, reject)=>{
+let promise3 = new Promise ((resolve, reject)=>{
 	setTimeout(()=>{
 		resolve("3");
 	},x * 1000)
 })
-let promise1 = new Promise ((resolve, reject)=>{
+let promise4 = new Promise ((resolve, reject)=>{
 	setTimeout(()=>{
 		resolve("4");
 	},x * 1000)
 })
-let promise1 = new Promise ((resolve, reject)=>{
+let promise5 = new Promise ((resolve, reject)=>{
 	setTimeout(()=>{
 		resolve("5");
 	},x * 1000)
