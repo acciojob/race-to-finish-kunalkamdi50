@@ -1,4 +1,9 @@
-window.promises = [];
+window.promises = [new Promise((resolve) => setTimeout(() => resolve("Promise 1 resolved"), getRandomTime())),
+  new Promise((resolve) => setTimeout(() => resolve("Promise 2 resolved"), getRandomTime())),
+  new Promise((resolve) => setTimeout(() => resolve("Promise 3 resolved"), getRandomTime())),
+  new Promise((resolve) => setTimeout(() => resolve("Promise 4 resolved"), getRandomTime())),
+  new Promise((resolve) => setTimeout(() => resolve("Promise 5 resolved"), getRandomTime()))
+];
 // Define an array of five promises, each of which resolves with a random time between 1 and 5 seconds
 // Create an array of five promises that each resolve with a random time between 1 and 5 seconds
 // Define an array of five promises, each of which resolves with a random time between 1 and 5 seconds
